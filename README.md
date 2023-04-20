@@ -12,14 +12,23 @@ La estructura basica del firmware de control PID se encuentra dentro de un RTOS 
 
 A continuacion se muestra el diagrama general de control
 
-
 ![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/DiagramaFuncional.png)
+
+![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/EDUCIAA_PLANTA.jpg)
 
 
 
 Se realizaron mediciones de la planta con osciloscopio tomando nota del tiempo de respuesta al 10% 90% del spam maximo
+![Osciloscopio 10_90](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/osc_0_100.jpg)
 
-![Osciloscopio 10_90](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/osc_10_90.jpg)
+
+La consigna pedia realizar tren de pulso a 10hz osea obteniendo la siguiente respuesta en el osciloscopio
+![Osciloscopio 0_100](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/respuesta_10hz.jpg)
+
+
+Observamos la respuesta escalon en python
+![Respuesta Escalon Python](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/respuesta%20escalon_python.png)
+
 
 Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de entonacion, kp ki kd los siguientes
 
@@ -28,13 +37,17 @@ Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de 
 * kd
 
 
+Se realizo una primera entonacion con L=100ms obteniendo respuesta oscilante
+![Respuesta inestable](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/respuesta_oscilante.png)
+
+
+Se realizo un segundo modelo con L=1ms obteniendo la respuesta escalon estable y controlando
+![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/respuesta_pid_python.png)
+
 
 
 Se realizo un modelo ideal en python para comprobar contra el modelo y respuesta real via osciloscopio 
-
-
-
-
+FALTA
 
 Referencias Externas:
 

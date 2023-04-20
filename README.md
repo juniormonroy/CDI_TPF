@@ -17,11 +17,18 @@ A continuacion se muestra el diagrama general de control
 
 
 
+Se realizaron mediciones de la planta con osciloscopio tomando nota del tiempo de respuesta al 10% 90% del spam maximo
 
-
-
+![Osciloscopio 10_90](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/osc_10_90.jpg)
 
 Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de entonacion, kp ki kd los siguientes
+
+* kp
+* ki
+* kd
+
+
+
 
 Se realizo un modelo ideal en python para comprobar contra el modelo y respuesta real via osciloscopio 
 

@@ -10,12 +10,22 @@
 
 La estructura basica del firmware de control PID se encuentra dentro de un RTOS con 4 tareas paralelas, donde la tarea a realiza el DAC, la tarea b realiza el calculo pid, la tarea c realiza el adc de planta, y la tarea d realiza las comunicaciones, los tiempos de ejecucion de la tarea a b y c son de 1 ms, y el de comunicacion se establecio a 50ms como el mas rapido soportado por las pruebas, probablemente limitado por la maxima velocidad de baudios disponible 115200.
 
+A continuacion se muestra el diagrama general de control
+
+
+![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/DiagramaFuncional.png)
+
+
+
+
+
+
+
 Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de entonacion, kp ki kd los siguientes
 
 Se realizo un modelo ideal en python para comprobar contra el modelo y respuesta real via osciloscopio 
 
 
-![Diagrama ISO](https://user-images.githubusercontent.com/87079881/187349380-d29026ac-fa5c-4450-a85b-d4d870658a51.png)
 
 
 

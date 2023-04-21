@@ -3,9 +3,9 @@
 * El sistema se constituye de un controlador en EDUCIAA usando las librerias PID de cmsis arm
 * Se cuenta con un pequeno programa en python para observar la respuesta en tiempo real del controlador setpoint y planta
 * Se realiza calculo de ziegle-nichols usando los datos observados por el osciloscopio de la planta ante una respuesta escalon
-* Se realiza simulacion en Python de la respuesta PID
+* Se realiza simulacion pole placement Octave del sistema planta
 * Se tomaron medida de los valores reales de los componentes de la planta para asi ser lo mas preciso posible, siendo R1=9.970Kohm, R2=974ohm C1=10.29uf C2=9.48uf
-* 
+
 
 
 La estructura basica del firmware de control PID se encuentra dentro de un RTOS con 4 tareas paralelas, donde la tarea a realiza el DAC, la tarea b realiza el calculo pid, la tarea c realiza el adc de planta, y la tarea d realiza las comunicaciones, los tiempos de ejecucion de la tarea a b y c son de 1 ms, y el de comunicacion se establecio a 50ms como el mas rapido soportado por las pruebas, probablemente limitado por la maxima velocidad de baudios disponible 115200.

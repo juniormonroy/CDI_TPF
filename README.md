@@ -59,8 +59,15 @@ Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de 
 
 
 
-Se realizo un modelo ideal en python para comprobar contra el modelo y respuesta real via osciloscopio 
-FALTA
+Se realizo el modelo POle Placement en base al circuito y los valores reales de la planta, siendo los resultados los siguientes.
+
+![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/PolePlacement.png)
+
+![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/PolePlacementControl.png)
+
+![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/PolePlacementControlZoom.png)
+
+
 
 Referencias Externas:
 

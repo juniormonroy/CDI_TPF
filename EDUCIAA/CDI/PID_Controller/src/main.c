@@ -42,9 +42,9 @@
 #define DAC_LOW 120     //SETPOINT LOW
 
 //COEFICIENTES DE CONTROL PID
-#define Kp_f 0.003370f 		//calculo por ziegle nichols
-#define Ki_f 0.0112358f 	//calculo por ziegle nichols
-#define Kd_f 0.00070223f 	//calculo por ziegle nichols
+#define Kp_f 0.033707f 		//calculo por ziegle nichols
+#define Ki_f 0.011235f 	//calculo por ziegle nichols
+#define Kd_f 0.070224f 	//calculo por ziegle nichols
 
 //LIMITES MAXIMOS POSIBLES DEL CALCULO EN FUNCION DEL ADC Y DAC
 #define MIN_OUTPUT 0 // Mínimo valor de salida permitido

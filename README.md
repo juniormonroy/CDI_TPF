@@ -14,6 +14,8 @@ A continuacion se muestra el diagrama general de control
 
 ![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/DiagramaFuncional.png)
 
+![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/PlantaCircuitoRC.png)
+
 ![Diagrama PID](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/EDUCIAA_PLANTA.jpg)
 
 

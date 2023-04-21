@@ -69,6 +69,10 @@ Se realizo el modelo POle Placement en base al circuito y los valores reales de 
 
 
 
+
+
+Todos los adjuntos y capturas en este repositorio adjunto estan.
+
 Referencias Externas:
 
 https://www.keil.com/pack/doc/CMSIS/DSP/html/group__PID.html

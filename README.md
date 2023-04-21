@@ -52,6 +52,8 @@ Se realizaron los calculos de ziegle-nichols siendo los resultados iniciales de 
 
 ![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/Respuesta_sp50_osc_picos.jpg)
 
+![Respuesta controlada](https://github.com/juniormonroy/CDI_TPF/blob/master/Capturas/Respuesta%20del%20controlador.jpg)
+
 
 
 
